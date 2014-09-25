@@ -1,6 +1,6 @@
 ---
 ---
-## Logan Arnett                                                       
+## The Iron Blog                                                      
 Portfolio        
 About        
 Contact
@@ -9,7 +9,7 @@ Contact
 # Logan Arnett
 Web Developer - Social Media - User Interface Design
 
-## Portfolio
+## Ironing Board
 
 [We Have Liftoff..!](http://loganarnett.github.io/2014/09/22/We-Have-Liftoff/)   
 [The Iron Blog Has Landed](http://loganarnett.github.io/2014/09/23/The-Iron-Blog-Has-Landed/)      
