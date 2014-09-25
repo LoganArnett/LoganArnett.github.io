@@ -11,12 +11,9 @@ Web Developer - Social Media - User Interface Design
 
 ## Portfolio
 
-[Project 1 + Image](#portfolioModal-1)   
-[Project 2 + Image](#portfolioModal-2)      
-[Project 3 + Image](#portfolioModal-3)
-[Project 4 + Image](#portfolioModal-4)   
-[Project 5 + Image](#portfolioModal-5)    
-[Project 6 + Image](#portfolioModal-6)
+[We Have Liftoff..!](http://loganarnett.github.io/2014/09/22/We-Have-Liftoff/)   
+[The Iron Blog Has Landed](http://loganarnett.github.io/2014/09/23/The-Iron-Blog-Has-Landed/)      
+[Day 3..2.1 Go!](http://loganarnett.github.io/2014/09/24/Day-3-.-.-2-1-Go/)
 
 ## About 
 
@@ -35,16 +32,19 @@ Logan at anytime about posts and projects.
 
 ## Contact Me
 
-Name
-Email Address
-Phone Number
-Message
+* Name
+* Email Address
+* Phone Number
+* Message
 
-[Send]
+Send
 
-### Location                                     
-### Around the Web                            
+### Location 
+
+### Around the Web 
+
 ### Credits
+
 Winter Garden and Orlando FL Area              
 
 Copyright Logan Arnett 2014
