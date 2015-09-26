@@ -105,7 +105,10 @@ $large-screen: 992px;
         }
       }
       @include media($medium-screen) {
-        top:15px;
+        top:6px;
+        @include hidpi(2) {
+          top: 15px;
+        }
       }
     }
     &.bottom {
