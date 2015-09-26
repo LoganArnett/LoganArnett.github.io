@@ -15,7 +15,6 @@ $trans-black: rgba(0,0,0,0.7);
 $small-screen: 420px;
 $medium-screen: 760px;
 $large-screen: 992px;
-$mobile-6: 667px;
 
 .slideIn {
   left: 0;
@@ -38,6 +37,9 @@ $mobile-6: 667px;
     height:15px;
     @include hidpi {
       width: 3em;
+    }
+    @include hidpi(2) {
+      width: 2.5em;
     }
   }
   &.active {
@@ -86,9 +88,9 @@ $mobile-6: 667px;
     background-color: white;
     @include media($medium-screen) {
       height: 3px;
-    }
-    @include hidpi(2) {
-      height:5px;
+      @include hidpi(2) {
+        height:4.5px;
+      }
     }
     &.top {
       top:0px;
@@ -97,13 +99,13 @@ $mobile-6: 667px;
     &.middle {
       top:12px;
       -webkit-transition: all 0.2s ease-in-out;
-      @include media($medium-screen) {
-        top:6px;
-      }
-      @include media($mobile-6) {
+      @include media(min-width 375px max-width 667px) {
         @include hidpi(2) {
           top:15px;
         }
+      }
+      @include media($medium-screen) {
+        top:15px;
       }
     }
     &.bottom {
@@ -163,12 +165,15 @@ header {
   .hero-logo img {
     margin: 15% 0 1em;
     height: 15em;
-    @include media($large-screen) {
-      height: 12em;
-    }
-    @include media($mobile-6) {
+    @include media(min-width 375px max-width 667px) {
       @include hidpi(2) {
         height: 30em;
+      }
+    }
+    @include media($large-screen) {
+      height: 12em;
+      @include hidpi(2) {
+        height: 20em;
       }
     }
   }
@@ -185,12 +190,15 @@ header {
         color: $hero-color;
         font-size: 4em;
         margin-bottom: 0.5em;
+        @include media(min-width 375px max-width 667px){
+          @include hidpi(2) {
+            font-size: 5em;
+          }
+        }
         @include media($medium-screen) {
           font-size: 1.8em;
-        }
-        @include media($mobile-6){
           @include hidpi(2) {
-            font-size: 4em;
+            font-size: 2.2em;
           }
         }
       }
@@ -448,7 +456,7 @@ header {
       text-align: center;
       img {
         width: 60%;
-        @include media($mobile-6) {
+        @include media(min-width 375px max-width 667px) {
           @include hidpi(2) {
               width: 50%;
           }
