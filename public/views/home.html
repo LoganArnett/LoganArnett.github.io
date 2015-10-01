@@ -18,9 +18,11 @@
 </header>
 <section id="project{{$index + 1}}" class="project" ng-repeat="($index, project) in main.projects">
   <div class="side-image" ng-class-even="'evens'">
-  <div class="images-wrapper" ng-class-even="'right'">
-    <img src="public/assets/images/{{project.site | lowercase | underscore}}.png" alt="{{project.site}}">
-  </div>
+  <a href="{{project.demo}}" target="_blank" class="images-wrapper" ng-class-even="'right'">
+    <div>
+      <img src="public/assets/images/{{project.site | lowercase | underscore}}.png" alt="{{project.site}}">
+    </div>
+  </a>
     <div class="side-image-content" ng-class-even="'left'">
       <h3><a href="{{project.demo}}" target="_blank">{{project.site | caps }}</a></h3>
       <h4>{{project.title | caps }}</h4>
