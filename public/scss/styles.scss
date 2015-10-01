@@ -243,6 +243,11 @@ header {
       animation: loader-inner 2s infinite ease-in;
     }
   }
+  .fa.fa-chevron-down {
+    font-size: 2em;
+    padding-bottom: 2%;
+    color: rgba(255,255,255,0.7);
+  }
 }
 
 .side-image {
