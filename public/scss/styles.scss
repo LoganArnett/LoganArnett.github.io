@@ -488,6 +488,7 @@ header {
   padding-top: 2%;
   height: 100vh;
   background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../assets/images/desktop.jpg');
+  background-size: cover;
   h1 {
     text-align: center;
     margin: 0;
@@ -536,30 +537,45 @@ header {
 
 // START about
 #about {
-  height: 100vh;
+  height: auto;
+  min-height: 100vh;
   padding: 2% 0;
   color: white;
   background: linear-gradient(rgba(0,0,0,0.8),$trans-black), url('../assets/images/desktop.jpg');
+  background-size: cover;
   h1 {
     text-align: center;
     padding-bottom: 2%;
     font-size: 2em;
+    margin-top: 15%;
+    @include media($medium-screen){
+      margin-top: 5%;
+    }
   }
   .about-content {
     @include outer-container;
     .about-img {
-      @include span-columns(4);
-      float: left;
+      width: 80%;
+      margin: 0 auto;
+      @include media($medium-screen){
+        @include span-columns(4);
+        float: left;
+      }
       padding: 1em;
       img {
         border-radius: 10ex;
-        width: 100%;
         height: auto;
+        width: 100%;
       }
     }
     .about-bio {
-      font-size: 1.5em;
-      line-height: 3.5ex;
+      font-size: 1.25em;
+      line-height: 3ex;
+      padding: 0 5% 10%;
+      @include media($medium-screen){
+        font-size: 1.5em;
+        line-height: 3.5ex;
+      }
     }
   }
 }
@@ -643,23 +659,34 @@ footer {
 
 // START contact
 #contact {
-  height: 100vh;
+  height: auto;
+  min-height: 100vh;
   padding: 2% 0;
   color: white;
   background: linear-gradient(rgba(0,0,0,0.8),$trans-black), url('../assets/images/desktop.jpg');
+  background-size: cover;
   h1 {
     text-align: center;
     font-size: 2em;
     margin-bottom: 4ex;
+    margin-top: 15%;
+    @include media($medium-screen){
+      font-size: 2em;
+      margin-top: 5%;
+    }
   }
   .contact-info {
     @include outer-container;
     ul {
       list-style-type: none;
       text-align: center;
+      padding: 0;
       li {
-        font-size: 1.8em;
+        font-size: 1.3em;
         margin-bottom: 4ex;
+        @include media($medium-screen){
+          font-size: 1.8em;
+        }
         a {
           color: white;
           text-decoration: none;
