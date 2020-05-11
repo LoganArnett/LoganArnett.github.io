@@ -1,8 +1,8 @@
-import * as React from "react";
+import React from "react";
 import smoothscroll from 'smoothscroll-polyfill';
 import "../styles/styles.scss";
 
-import DefaultLayout from "../layouts";
+import DefaultLayout from "../layout";
 
 smoothscroll.polyfill();
 
@@ -21,7 +21,7 @@ interface IndexPageProps {
 const App: React.FC<IndexPageProps> = (props) => (
   <DefaultLayout>
     <div className="main-content">
-      <div className="section-dark my-work" id="my-work">
+      <div className="section-dark my-work" id="work">
         <div className="container">
           <div
             className="columns is-multiline"
@@ -212,7 +212,7 @@ const App: React.FC<IndexPageProps> = (props) => (
           </div>
         </div>
       </div>
-      <div className="section-light about-me" id="about-me">
+      <div className="section-light about-me" id="about">
         <div className="container">
           <div className="column is-12 about-me">
             <h1 className="title has-text-centered section-title">About Me</h1>

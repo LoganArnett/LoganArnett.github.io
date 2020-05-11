@@ -696,6 +696,9 @@ pre tt:after {
   background: white;
   box-shadow: 0 2px 15px rgba(0, 0, 0, 0.082);
   z-index: 99;
+  position: fixed;
+  width: 100%;
+  transition: background 0.5s;
 }
 
 @media (max-width: 599px) {
