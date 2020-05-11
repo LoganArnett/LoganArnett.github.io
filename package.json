@@ -12,7 +12,8 @@
     "gatsby-plugin-typescript": "^2.4.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-helmet": "^6.0.0"
+    "react-helmet": "^6.0.0",
+    "smoothscroll-polyfill": "^0.4.4"
   },
   "keywords": [
     "gatsby, typescript"

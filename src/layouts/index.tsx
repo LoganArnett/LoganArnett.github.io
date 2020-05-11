@@ -1,8 +1,7 @@
-import * as React from "react";
-import Link from "gatsby-link";
+import React from "react";
 import { Helmet } from "react-helmet";
 
-import "./index.css";
+import { ScrollLink } from '../components';
 
 const Header = () => (
   <div className="header-wrapper" id="home">
@@ -56,22 +55,19 @@ const Header = () => (
             <div className="column is-12 hero-menu-desktop has-text-centered">
               <ul>
                 <li className="is-active">
-                  <a href="#home">Home</a>
+                  <ScrollLink href="#home">Home</ScrollLink>
                 </li>
                 <li>
-                  <a href="#about-me">About Me</a>
+                  <ScrollLink href="#my-work">My Work</ScrollLink>
                 </li>
                 <li>
-                  <a href="#services">Services</a>
+                  <ScrollLink href="#services">Services</ScrollLink>
                 </li>
                 <li>
-                  <a href="#skills">Skills</a>
+                  <ScrollLink href="#about-me">About Me</ScrollLink>
                 </li>
                 <li>
-                  <a href="#my-work">My Work</a>
-                </li>
-                <li>
-                  <a href="#contact">Contact</a>
+                  <ScrollLink href="#contact">Contact</ScrollLink>
                 </li>
               </ul>
             </div>
