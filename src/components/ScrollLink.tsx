@@ -4,6 +4,7 @@ interface ScrollLinkProps {
   offset?: any;
   onClick?: (e: SyntheticEvent<HTMLAnchorElement>) => void;
   href: string;
+  id?: string;
 }
 
 export const ScrollLink: FC<ScrollLinkProps> = ({ offset, onClick, children, ...props }) => {

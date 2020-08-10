@@ -7,10 +7,10 @@ const DefaultLayout: React.FC = (props) => {
   return (
     <>
       <Helmet
-        title="Gatsby Default Starter"
+        title="Logan Arnett | Software Engineer"
         meta={[
-          { name: "description", content: "Sample" },
-          { name: "keywords", content: "sample, something" },
+          { name: "description", content: "Software and Cloud Engineer who develops performant user interfaces and excellent user experiences. Utilizes microservices and serverless architecture for the API layer." },
+          { name: "keywords", content: "react, reactjs, react.js, node, nodejs, node.js, software engineer, amazon web services, aws lambda, serverless, microservices, api, sql, nosql, dynamodb" },
         ]}
       />
       <Header />
