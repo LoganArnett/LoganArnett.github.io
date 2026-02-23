@@ -1,8 +1,30 @@
-# Project dependencies
-# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
+# Build
+/dist
+/lib
+/lib-types
+/server
+/tmp
+
+# Dependencies
 node_modules
-.cache/
-# Build directory
-public/
+
+# Environment
+.env
+*.local
+
+# Cache
+.cache
+.mf
+.rollup.cache
+tsconfig.tsbuildinfo
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Editor
+.vscode
+.idea
 .DS_Store
-yarn-error.log
+*.sw?
