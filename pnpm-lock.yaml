@@ -34,7 +34,7 @@ importers:
         version: 5.4.5
       undici:
         specifier: '*'
-        version: 7.22.0
+        version: 7.24.0
       vite:
         specifier: 7.3.1
         version: 7.3.1(@types/node@20.19.0)(jiti@1.21.7)
@@ -1270,8 +1270,8 @@ packages:
   undici-types@6.21.0:
     resolution: {integrity: sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ==}
 
-  undici@7.22.0:
-    resolution: {integrity: sha512-RqslV2Us5BrllB+JeiZnK4peryVTndy9Dnqq62S3yYRRTj0tFQCwEniUy2167skdGOy3vqRzEvl1Dm4sV2ReDg==}
+  undici@7.24.0:
+    resolution: {integrity: sha512-jxytwMHhsbdpBXxLAcuu0fzlQeXCNnWdDyRHpvWsUl8vd98UwYdl9YTyn8/HcpcJPC3pwUveefsa3zTxyD/ERg==}
     engines: {node: '>=20.18.1'}
 
   unified@11.0.5:
@@ -1386,7 +1386,7 @@ snapshots:
       '@types/mdx': 2.0.13
       source-map: 0.7.6
       svgo: 3.3.2
-      undici: 7.22.0
+      undici: 7.24.0
       valibot: 1.2.0(typescript@5.4.5)
       vfile: 6.0.3
       vite: 7.3.1(@types/node@20.19.0)(jiti@1.21.7)
@@ -2786,7 +2786,7 @@ snapshots:
 
   undici-types@6.21.0: {}
 
-  undici@7.22.0: {}
+  undici@7.24.0: {}
 
   unified@11.0.5:
     dependencies:
